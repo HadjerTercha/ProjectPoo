@@ -6,10 +6,11 @@ public class EBook extends Book {
         this.format = format;
     }
     
-    @Override
-    public String getBookType() {
-        return "E-Book (" + format + ")";
-    }
-    
     public String getFormat() { return format; }
+    public void setFormat(String format) { this.format = format; }
+    
+    @Override
+    public String toString() {
+        return super.toString() + " [book email " + format + "]";
+    }
 }
