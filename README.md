@@ -12,10 +12,11 @@
 4. Borrower للمستعيرين
 5. BorrowingProcess لتسجيل عمليات الإعارة
 
+
    كيفية التشغيل:
    
    1. ترجمة javac scr.java
-2. شغل الملف Main.java
+   2. شغل الملف Main.java
 
 المميزات:
 
